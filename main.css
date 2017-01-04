@@ -134,6 +134,34 @@ header {
   margin-top: 10px;
 }
 
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  /*height: 150px;*/
+  background-color: #1b3240;
+}
+
+.footer-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 25%;
+  background-color: white;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #1b3240;
+  font-weight: 600;
+}
+
+.footer-box:hover {
+  cursor: pointer;
+  background-color: #aac9de;
+}
+
 
 @media screen and (max-width: 900px){
   .card {
@@ -161,6 +189,7 @@ header {
     width: 40px;
     padding: 10px;
   }
+
 }
 
 
@@ -179,6 +208,17 @@ header {
   .hamburger {
     display: block;
   }
+  .footer-container {
+    flex-direction: column;
+  }
+  .footer-box {
+    width: 50%;
+    margin-bottom: 0;
+  }
+  #last-box {
+    margin-bottom: 20px;
+  }
+
 }
 
 @media screen and (max-width: 500px) {
@@ -188,6 +228,9 @@ header {
   .pic {
     height: 120px;
     width: 120px;
+  }
+  .footer-box {
+    width: 85%;
   }
 
 }
