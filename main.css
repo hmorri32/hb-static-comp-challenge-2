@@ -1,0 +1,195 @@
+/*
+Hex: #1b3240
+Hex: #29617a
+Hex: #457da0
+Hex: #6f94a7
+Hex: #88acc4
+Hex: #aac9de
+Hex: #dbe0dc
+Hex: #fffbe8
+
+
+
+*/
+
+
+
+body {
+  font-family: 'Open Sans';
+  color: #a0ffe9;
+}
+
+.header-container h1 {
+  font-family: 'Permanent Marker';
+  font-size: 50px;
+  padding-top: 20px;
+}
+
+header {
+  text-align: center;
+  height: 60px;
+}
+
+.header-and-icons {
+  background-color: #1b3240;
+
+}
+
+.sun-button {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  height: 50px;
+  width: 50px;
+}
+
+.tropical-button {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  height: 50px;
+  width: 50px;
+}
+
+.forest-button {
+  position: absolute;
+  top: 5px;
+  right: 60px;
+  height: 50px;
+  width: 50px;
+}
+
+.icons-and-stats-container {
+  height: 15vh;
+}
+
+
+.icons {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.icons img{
+  height: 50px;
+  width:50px;
+  padding: 20px;
+}
+
+.cards-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+  background-color: #aac9de;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  margin: 10px;
+  background-color: #ffffff;
+  color: #1b3240;
+}
+
+.pic {
+  height: 200px;
+  width: 200px;
+  border: 3px solid #1b3240;
+  border-radius: 50%;
+  margin: 10px;
+  margin-right: 30px;
+}
+
+.title {
+  font-weight: 600;
+  padding: 7px;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #dbe0dc;
+}
+
+.inside-div-content {
+  display: flex;
+  align-items: center;
+}
+
+.temperature{
+  font-size: 3.5em;
+  color: #6f94a7;
+
+}
+
+.location {
+  font-weight: 600;
+  border-top: 2px solid #dbe0dc;
+  text-align: center;
+  padding: 7px;
+}
+
+.div-p {
+  margin-top: 10px;
+}
+
+
+
+@media screen and (max-width: 900px){
+  .card {
+    width: 47%;
+  }
+  .temperature {
+    font-size: 3em;
+  }
+  .pic {
+    height: 150px;
+    width: 150px;
+  }
+}
+
+@media screen and (max-width: 750px){
+  .card {
+    width: 75%;
+  }
+  .icons {
+    padding-top: 30px;
+  }
+  .icons img {
+    height: 40px;
+    width: 40px;
+    padding: 10px;
+  }
+}
+
+
+@media screen and (max-width: 600px){
+  .icons {
+    display: none;
+  }
+  .icons-and-stats-container {
+    height: 5vh;
+  }
+  .forest-button,
+  .tropical-button {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .temperature {
+    font-size: 2em;
+  }
+  .pic {
+    height: 120px;
+    width: 120px;
+  }
+}
+
+@media screen and (max-width: 410px) {
+
+.header-container h1 {
+  font-size: 40px;
+  padding-top: 30px;
+}
+}
