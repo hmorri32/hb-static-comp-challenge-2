@@ -7,12 +7,7 @@ Hex: #88acc4
 Hex: #aac9de
 Hex: #dbe0dc
 Hex: #fffbe8
-
-
-
 */
-
-
 
 body {
   font-family: 'Open Sans';
@@ -32,7 +27,6 @@ header {
 
 .header-and-icons {
   background-color: #1b3240;
-
 }
 
 .sun-button {
@@ -42,6 +36,7 @@ header {
   height: 50px;
   width: 50px;
 }
+
 .hamburger {
   position: absolute;
   top: 15px;
@@ -126,7 +121,6 @@ header {
 .temperature{
   font-size: 3.5em;
   color: #6f94a7;
-
 }
 
 .location {
@@ -141,7 +135,6 @@ header {
 }
 
 
-
 @media screen and (max-width: 900px){
   .card {
     width: 47%;
@@ -154,6 +147,7 @@ header {
     width: 150px;
   }
 }
+
 
 @media screen and (max-width: 750px){
   .card {
@@ -198,10 +192,10 @@ header {
 
 }
 
-@media screen and (max-width: 410px) {
 
-.header-container h1 {
-  font-size: 40px;
-  padding-top: 30px;
-}
+@media screen and (max-width: 410px) {
+  .header-container h1 {
+    font-size: 40px;
+    padding-top: 30px;
+  }
 }
